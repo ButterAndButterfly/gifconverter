@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react(), tsconfigPaths()],
-    base: "/gifconverter/",
+    base: "/",
     server: {
         headers: {
             "Cross-Origin-Opener-Policy": "same-origin",
